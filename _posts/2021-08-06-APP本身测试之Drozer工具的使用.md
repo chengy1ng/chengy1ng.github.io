@@ -9,9 +9,10 @@ tags:
 - Android
 ---
 
-# APP本身测试之Drozer工具的安装与使用    --诸苦尝尽
+# APP本身测试之Drozer工具的安装与使用    
+                                                                               ——诸苦
 
-**一、安装**
+##一、安装
 
 从官网上下载drozer的压缩包文件，解压drozer压缩包后，直接运行setup.exe、
 
@@ -69,7 +70,7 @@ javac=java的安装路径\javac.exe
 
 
 
-**二、使用测试**
+##二、使用测试**
 
 **1、安装需要测试的apk：**
 
