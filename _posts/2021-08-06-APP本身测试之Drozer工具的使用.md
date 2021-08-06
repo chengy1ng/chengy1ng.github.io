@@ -1,7 +1,7 @@
 ---
 title: APP本身测试之Drozer工具的安装与使用
 layout: post
-post-image: /assets/images/bg.jpg
+post-image: /assets/images/20210806/888.jpg
 description: drozer是一款针对Android系统的安全测试框架。
 tags:
 - 渗透测试
