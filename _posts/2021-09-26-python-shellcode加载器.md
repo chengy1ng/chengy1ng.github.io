@@ -1,5 +1,5 @@
 ---
-title: python shellcode加载器简述
+title: Python ShellCode加载器简述
 layout: post
 post-image: /assets/images/beijita.jpg
 description: 免杀是一个长期而艰巨的工程
@@ -9,10 +9,10 @@ tags:
 - 免杀
 ---
 
-# python shellcode加载器简述
+# Python ShellCode加载器简述
 
 ​                                                                                                                       ——Little Tea     
-# python shellcode加载器
+# Python ShellCode加载器
 
 ## 什么是ShellCode
 
