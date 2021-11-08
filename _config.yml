@@ -1,100 +1,91 @@
-# WhatATheme
-markdown: kramdown
+encoding: utf-8
 
-# URL of the Site
-url: ''
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+# SEO相关信息
+title: 承影安全实验室 Blog
+description: 承影安全实验室博客
+keywords: CY,Blog,承影,渗透测试,红队攻防
+author: 花无名
+footerText: 'Copyright © 2021 沪ICP备66668888号'
 
-# Title of the Site
-title: 承 影 Sec
-# Description of the Site
-description: A group of students who love and are eager to protect the network security
-# URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
-# Keywords of the Site
-site-keywords: Site, Template, Theme
-# URL for the Image of custom Favicon
-favicon-url: 
+# 这些不要动
+permalink: /posts/:year/:month/:day/:title.html
+kramdown:
+  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
 
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/bg.jpg
+# 域名配置
+# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
+domainUrl: 'https://chengy1ng.github.io'
+baseurl: ''
 
-# Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
-email: chengying@bugbank.cn
-facebook_username: 承影
-twitter_username: 承影
-instagram_username: 承影
-linkedin_username: 承影
-github_username:  承影
-youtube_channel_id: 
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+# 吐个槽地址，会在chat页面中重定向到该地址
+tucaoUrl: https://www.bugbank.cn/
 
-# Google Analytics
-google-analytics: UA-163806439-1
+# 菜单
+menu:
+  - title: 首页
+    url: /
+  - title: 归类
+    url: /pages/categories.html
+  - title: 搜索
+    url: /pages/search.html
+  - title: 友链
+    url: /pages/links.html
+  - title: 留言
+    url: /#
+  - title: 关于
+    url: /pages/about.html
 
-# Disqus
-disqus-shortname: thedevslot
+# 点击页面文字冒出特效,不需要请设置为false
+extClickEffect: true
 
-# Name of the Author
-author-name: 承影Sec
-# URL for the Image of the Author
-author-image: /assets/images/about.jpg
-# 60 Words About the Author
-author-about: 承影安全团队是一个持续学习发展中网络安全研究团队，成立于2021年7月16日，由一群热爱网络安全的年轻人一同组成，致力于研究红队攻防、漏洞挖掘与修复等，不定期的分享，接收各种批评与建议，一起共同学习成长！
-# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: 
+# Google Adsense,不需要请设置为false
+# _includes/ext-adsense.html 里面修改为自己的配置
+extAdsense: false
 
-# SASS
-sass:
-  sass_dir: _sass
-  style: compressed
+# 腾讯MTA移动分析,不需要请设置为false
+# _includes/ext-adsense.html 里面修改为自己的配置
+extMTA: true
 
-# Build settings
-plugins:
-  - jekyll-admin
-  - jekyll-feed
+# 百度收录自动推送,不需要请设置为false
+extBaidu: true
 
-# Permalink
-permalink: "blog/:title"
+# 数学公式支持，比较影响加载速度,不需要请设置为false
+extMath: false
 
-# Compress
-compress_html:
-  clippings: all
-
-# Defaults
-defaults:
-  -
-    scope:
-      type: 'posts'
-    values:
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
-    values:
-      layout: page
-
-# Exclude
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-
-
+# 友情链接
+links:
+  - title: 文科中的技术宅
+    url: https://www.townwang.com
+  - title: Auuu Nya Blog
+    url: http://mu1er.cn
+  - title: 春风十里
+    url: https://www.geek-era.com
+  - title: 阿川的个人博客
+    url: https://achuan.io
+  - title: 魏文成博客
+    url: https://www.wwc.ren
+  - title: 06m
+    url: https://www.06m.me
+  - title: 达达知识
+    url: https://www.dadapush.com
+  - title: 祈雨的博客
+    url: https://wakzz.cn
+  - title: hongCYu’s Blog
+    url: https://hongcyu.cn
+  - title: Sorryfu
+    url: https://fushaolei.github.io
+  - title: 简单的人生笔记
+    url: https://yoyling.com
+  - title: oneNeko的博客
+    url: https://blog.oneneko.com
+  - title: Py的Blogggg
+    url: https://blog.pyliubaolin.top
+  - title: Yuyao's Blog
+    url: http://hellocode.ink
+  - title: 木叶的博客
+    url: https://muye.ml
+  - title: Stansec
+    url: https://standeblog.com/
